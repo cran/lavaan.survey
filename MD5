@@ -1,9 +1,7 @@
-6534a4df2c87f40885eea40d4caa9ffc *DESCRIPTION
+6408b1e3ad242b9ed51be12b02049f3d *DESCRIPTION
 258f5cbc2ffdc61d086c6366bea49ed8 *NAMESPACE
-f7a68de350f32cc44193a3e75d70209f *R/lavaan.survey.R
-07248b974ba83080eabf953b7ad8b8ce *R/subset.survey.design.R
+cd311e68228d07c16799b8c089dbeadd *R/lavaan.survey.R
 27db6cdeb026348e7296d61ee0b2dbd9 *data/ess.dk.rda
 68ce8bda55289f9304e38c5c6eac51ba *man/ess.dk.Rd
 dcedf8e0f810970bf9b9aab3baef661a *man/lavaan.survey-package.Rd
-83918d136942f98d8cdc3627eccc3821 *man/lavaan.survey.Rd
-a2ab180041d981876bb1ac76729a7c94 *man/subset.survey.design.Rd
+0179813dd5350bb56f5fa0d25fc15361 *man/lavaan.survey.Rd
