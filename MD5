@@ -1,7 +1,8 @@
-6408b1e3ad242b9ed51be12b02049f3d *DESCRIPTION
-258f5cbc2ffdc61d086c6366bea49ed8 *NAMESPACE
-cd311e68228d07c16799b8c089dbeadd *R/lavaan.survey.R
+6fd0d8b55714721f8ba6d2fe2b02c007 *DESCRIPTION
+46282a5e22fd2261d4b19e45a018a298 *NAMESPACE
+7eae7622b9e8cdb2ea6700a146f3fe92 *R/lavaan.survey.R
 27db6cdeb026348e7296d61ee0b2dbd9 *data/ess.dk.rda
 68ce8bda55289f9304e38c5c6eac51ba *man/ess.dk.Rd
 dcedf8e0f810970bf9b9aab3baef661a *man/lavaan.survey-package.Rd
 0179813dd5350bb56f5fa0d25fc15361 *man/lavaan.survey.Rd
+f532265e47f86b93ba09257a05477949 *man/pval.pFsum.Rd
