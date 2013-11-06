@@ -1,5 +1,5 @@
 # Complex sampling analysis of SEM models
-# Daniel Oberski, 2013-05-12
+# Daniel Oberski, 2013-09-25
 
 lavaan.survey <- 
   function(lavaan.fit, survey.design, 
@@ -176,8 +176,6 @@ get.sample.nobs  <- function(svy.imp.design, group=NULL) {
 #   behavior of tests in other contexts."
 # The eigenvalues of the U.Gamma matrix will be the coefficients in the 
 #   mixture of F's distribution (Skinner, Holt & Smith, pp. 86-87).
-# U Gamma eigenvalues are only returned in lavaan dev version, without them 
-#   just use the Satterthwaite approximation to the F distribution.
 pval.pFsum <- function(lavaan.fit, survey.design, method = "saddlepoint") {
   # Check that Satorra-Bentler or Satterthwaite adjustment is present
   if(!lavaan.fit@Options$test %in% 

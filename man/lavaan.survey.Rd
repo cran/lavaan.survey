@@ -104,7 +104,15 @@ lavaan.survey(lavaan.fit, survey.design,
 	objects, including a \code{summary} method.}
 \references{
 Asparouhov T (2005). Sampling Weights in Latent Variable Modeling. Structural 
-equation modeling, 12(3), 411-434.
+  Equation Modeling, 12(3), 411-434.
+
+Bollen, K, Tueller, S, Oberski, DL (2013). Issues in the Structural Equation 
+  Modeling of Complex Survey Data. In: Proceedings of the 59th World Statistics 
+  Congress 2013 (International Statistical Institute, ed.), Hong Kong.
+  \url{http://daob.nl/publications/}
+
+Oberski, DL (2013). lavaan.survey: An R Package for Complex Survey 
+  Analysis of Structural Equation Models. Journal of Statistical Software.
 
 Fuller WA (2009). Sampling Statistics. John Wiley & Sons, New York.
 
@@ -114,7 +122,7 @@ Oberski, D. and Saris, W. (2012). A model-based procedure to evaluate
     the relative effects of different TSE components on structural equation
     model parameter estimates. Presentation given at the International
     Total Survey Error Workshop in Santpoort, the Netherlands. 
-    \url{http://daob.org/}
+    \url{http://daob.nl/publications/}
 
 Satorra, A., & Bentler, P. M. (1994). Corrections to test statistics
 	and standard errors in covariance structure analysis. 
@@ -135,7 +143,7 @@ Modelling. British Journal of Mathematical and Statistical Psychology, 51(2), 28
     
 }
 \author{
-	Daniel Oberski - \url{http://daob.org} - \email{daniel.oberski@gmail.com}
+	Daniel Oberski - \url{http://daob.nl/} - \email{daniel.oberski@gmail.com}
 }
 \note{    
     1) Some care should be taken when applying multiple imputation with survey
@@ -201,6 +209,7 @@ HS.model <- ' visual  =~ x1 + x2 + c(lam31, lam31)*x3
 
 # Fit multiple group per school
 fit <- lavaan(HS.model, data=HolzingerSwineford1939,
+              int.ov.free=TRUE, meanstructure=TRUE,
               auto.var=TRUE, auto.fix.first=TRUE, group="school",
               auto.cov.lv.x=TRUE, estimator="MLM")
 summary(fit, fit.measures=TRUE)
@@ -212,6 +221,9 @@ survey.design <- svydesign(ids=~clus, prob=~1, data=HolzingerSwineford1939)
 
 summary(fit.survey <- lavaan.survey(fit, survey.design))
 
+
+# For more examples, please see the Journal of Statistical Software Paper, 
+#   as well as http://daob.nl/publications/
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
