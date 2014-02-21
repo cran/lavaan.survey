@@ -44,8 +44,12 @@ An anonymous reviewer for the Journal of Statistical Software suggested that
 	A p-value for the overall F test of model fit, adjusted for nonnormality and the complex sampling design.
 }
 \references{
-Skinner C, Holt D, Smith T (1989). Analysis of Complex Surveys. John Wiley & Sons,     
-New York.    
+Skinner C, Holt D, Smith T (1989). Analysis of Complex Surveys. 
+  John Wiley & Sons, New York.    
+
+Oberski, D.L. (2014). lavaan.survey: An R Package for Complex Survey Analysis
+  of Structural Equation Models. Journal of Statistical Software, 57(1), 1-27.
+  \url{http://www.jstatsoft.org/v57/i01/}.
 }
 \author{
 	Daniel Oberski - \url{http://daob.org} - \email{daniel.oberski@gmail.com}
@@ -56,6 +60,8 @@ New York.
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
+  \code{\link{cardinale}}
+  \code{\link{lavaan.survey}}
 	\code{\link{pFsum}}
 	\code{\link{degf}}
 	\code{\link{svydesign}}

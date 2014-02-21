@@ -7,7 +7,8 @@ lavaan.survey <-
            estimator.gamma=c("default","Yuan-Bentler")) {
   
   # Not all estimators in lavaan make sense to use here, therefore matching args
-  estimator <- match.arg(estimator)  
+  estimator <- match.arg(estimator) 
+  if(estimator=="ML") warning("Estimator 'ML' will not correct standard errors and chi-square statistic.")
   estimator.gamma <- match.arg(estimator.gamma) # Smoothing Gamma or not
   
   # Names of the observed variables (same for each group)

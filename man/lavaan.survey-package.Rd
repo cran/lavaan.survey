@@ -27,13 +27,14 @@ License: \tab GPL(>=2)\cr
     Author/maintainer: Daniel Oberski <daniel.oberski@gmail.com>
 }
 \references{
-        Bollen, K, Tueller, S, Oberski, DL (2013). Issues in the Structural Equation 
-            Modeling of Complex Survey Data. In: Proceedings of the 59th World Statistics 
-            Congress 2013 (International Statistical Institute, ed.), Hong Kong.
-	    \url{http://daob.nl/publications/}
+  Bollen, K, Tueller, S, Oberski, DL (2013). Issues in the Structural Equation 
+    Modeling of Complex Survey Data. In: Proceedings of the 59th World Statistics 
+    Congress 2013 (International Statistical Institute, ed.), Hong Kong.
+    \url{http://daob.nl/publications/}
 
-        Oberski, DL (2013). lavaan.survey: An R Package for Complex Survey 
-          Analysis of Structural Equation Models. Journal of Statistical Software.
+  Oberski, D.L. (2014). lavaan.survey: An R Package for Complex Survey Analysis
+    of Structural Equation Models. Journal of Statistical Software, 57(1), 1-27.
+    \url{http://www.jstatsoft.org/v57/i01/}.
 
 	Oberski, DL and Saris, WE (2012). A model-based procedure to evaluate
 	    the relative effects of different TSE components on structural equation
@@ -51,10 +52,17 @@ License: \tab GPL(>=2)\cr
 \seealso{
     \code{\link{lavaan.survey}}
     
-    \code{\link{svydesign}}
-    \code{\link{svyvar}}
+  \code{\link{pval.pFsum}}
 
-    \code{\link{lavaan}}
+  \code{\link{cardinale}}
+  \code{\link{ess.dk}}
+  \code{\link{ess4.gb}}
+  \code{\link{liss}}
+  \code{\link{pisa.be.2003}}
+
+  \code{\link{svydesign}}
+
+  \code{\link{lavaan}}
     \code{\link{cfa}}
     \code{\link{sem}}
 }
