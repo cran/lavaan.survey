@@ -1,8 +1,8 @@
 Package: lavaan.survey
 Type: Package
-Title: Complex survey Structural Equation Modeling (SEM)
-Version: 1.1
-Date: 2014-02-21
+Title: Complex Survey Structural Equation Modeling (SEM)
+Version: 1.1.3
+Date: 2015-11-03
 Author: Daniel Oberski
 Maintainer: Daniel Oberski <daniel.oberski@gmail.com>
 Description: Fit structural equation models (SEM) including factor analysis,
@@ -12,11 +12,12 @@ Description: Fit structural equation models (SEM) including factor analysis,
     Incorporate clustering, stratification, sampling weights, and 
     finite population corrections into a SEM analysis.
     Wrapper around packages lavaan and survey.
-Depends: R(>= 2.14.0), lavaan(>= 0.5-13), survey(>= 3.29-4)
-Imports: MASS, Matrix
+Depends: R(>= 2.14.0), lavaan(>= 0.5-20), survey(>= 3.30-3)
+Imports: MASS
 License: GPL (>= 2)
 URL: http://daob.nl/
-Packaged: 2014-02-21 18:16:21 UTC; daob
+Suggests: testthat, mice, mitools
 NeedsCompilation: no
+Packaged: 2015-11-09 09:13:04 UTC; daob
 Repository: CRAN
-Date/Publication: 2014-02-22 00:33:25
+Date/Publication: 2015-11-09 11:34:18
