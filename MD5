@@ -1,11 +1,11 @@
-39dfe3ab3b67389e1861caf43f471c8a *DESCRIPTION
+396070ed59aee44eab954a4043933a7f *DESCRIPTION
 9193e9b7eedf572fd412eadcbb3f68b9 *NAMESPACE
 1a9e3b09814c4696ee09b6f850d1f7fb *R/lavaan.survey.R
-bb01f7dd17cf5c73f9c7aaa53080a4fd *data/cardinale.rda
-ef0367623a93a4475fa80320b9394341 *data/ess.dk.rda
-5a965acec87cce49ce8ac90fd8cc93be *data/ess4.gb.rda
-1f7955a5da0a68f7b6fe668f2065bbd5 *data/liss.rda
-e990ac241b66a2c0591f1040ac7a03d1 *data/pisa.be.2003.rda
+876ad460542a3660f9b6f4c9e9b21c22 *data/cardinale.rda
+171d56cef226f8bc390c1701186cff31 *data/ess.dk.rda
+ec62de2c1a8b46397f417cfdb876ed36 *data/ess4.gb.rda
+25b08496caadf641920ec7b0c1b2cf2d *data/liss.rda
+b9fd564aeea0746553977e7eb06c3c64 *data/pisa.be.2003.rda
 59f092b0578304b4767bda8e7b339187 *inst/CITATION
 85e7ab01a3f590694f30747d9c121f3e *man/cardinale.Rd
 27be1cbc298a45f0d9d853605add978d *man/ess.dk.Rd
@@ -16,8 +16,4 @@ e990ac241b66a2c0591f1040ac7a03d1 *data/pisa.be.2003.rda
 d073c914b3db9880713d7453af44cf8f *man/pisa.be.2003.Rd
 cabefdb9e63e67d502302937f38f987c *man/pval.pFsum.Rd
 e2d02d68d32831a5e74f4f9b50fed00d *tests/testthat.R
-3bc141bc858ce4115fd0f889a10e51a5 *tests/testthat/liss_implist.rdata
-906b366c429edf04bed394c0e90987fc *tests/testthat/test_cardinale.R
-1a9ab4129af96b5948d97e7b62d2ac42 *tests/testthat/test_liss.R
-0928d573de0666290b12eb52e3ce9157 *tests/testthat/test_multiple_group.R
 cd7dce135381116d5a2f144d6632a5c9 *tests/testthat/test_roosma.R
